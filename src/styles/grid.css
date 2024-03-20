@@ -1,0 +1,52 @@
+
+.item{
+    background-color: bisque;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+.contaner {
+    background-color: aquamarine;
+    display:grid;
+    grid-template-columns:  1fr 2fr 3fr;
+    grid-template-rows: 1fr 1fr; 
+   /* height: 500px;если делать rows 1fr */
+/* grid-template:repeat(4,minmax(100px,1fr))/repeat(4,minmax(100px,1fr));
+gap: 20px ;
+/* row-gap:30px;
+column-gap:30px ; */
+/* grid-template:repeat(3,100px)/repeat(4,100px) ; */
+/* justify-content:center;
+height: 1000px ;
+align-content:center; */
+/* grid-auto-flow: column; */
+
+}
+/* .item2{
+    grid-column:span2;
+    grid-row: span2; не получилось сделать сдвинулись
+} */
+
+.template{
+    display: grid;
+    grid-template:128px 1fr 128px/1fr 300px;
+    /* почему 1фр такое расположение серединная строка */
+    /* 1фр расширяется а пиксели нет? */
+    grid-template-areas: 
+    "H H"
+    "M S"
+    "F F";
+}
+
+header{
+    grid-area:H;
+}
+main{
+    grid-area: M;
+}
+aside{
+    grid-area: S;
+}
+footer{
+    grid-area: F;
+}

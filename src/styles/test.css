@@ -1,0 +1,80 @@
+/* .container{
+    background-color: bisque;
+} */
+/* :root {
+	--blue: #64d0ca;
+	--green: #6b7b3e; */
+/* }
+
+.box{
+    background-color: blueviolet;
+    color: azure;
+    width: 50%;
+    padding: 20px;
+    border: 10px black solid;
+    margin: 20px;
+    box-sizing: border-box; */
+    /* не поняла с box-sizing как это так влияет */
+/* }
+
+img{
+    width:250px;
+    height:60vh;
+    object-fit: cover;
+     box-shadow: 0px 0px 5px 5px rgba(102, 14, 67, 0.25);
+    /* не получилось */ 
+    /* border-radius: 60px;
+    padding: 40px;
+    box-sizing: border-box; */ 
+    /* margin: 20px; */
+/* }
+.text{
+    font-size:1.25em; */
+    /* Абсолютные:
+     -px
+     -pt(для печати)
+     -cm,mm,in
+     */
+
+     /* Относительные
+     -em(1em= Настроенному размеру шрифта в браузере*em родительского эл-та),
+     (относительно родительского элемена)
+
+     -rem(более универсальнее когда объекты вложены друг в друга),
+     (1 rem= Настроенному размеру шрифта в браузере)
+     - % ( процент от родительского элемента)
+     -vw,vh (процент от ширины/высоты видимого окна сайта)
+     -vmin,vmax (процент от меньшей или большей стороны видимого окна сайта)
+      */
+/* }
+.sguare{
+    border: 4px solid #b04753;
+    border-radius: 20px;
+    width: 233px;
+    height: 200px; 
+
+    box-shadow: 9px 11px 12px 75px rgba(102, 14, 67, 0.25);
+    background: var(--green);
+}
+.container{
+    display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: center;
+flex-direction: row;
+gap: 14px;
+} 
+.card{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+border-radius: 9px 9px 0 0;
+background: #fff;
+}
+.card img{
+    width: 220px;
+    height: 220px
+
+}
